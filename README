@@ -1,9 +1,9 @@
 COMMAND LINE
 
-mkdir -p dir1/dir2/dir3 # makes an entire path even if all the directories don't exist
-cp -r # copy directories with files in them
-ls -la # shows hidden files (in long format)
-rm -rf # remove directories with files in them (recursive remove)
+<b>mkdir -p dir1/dir2/dir3</b> # makes an entire path even if all the directories don't exist
+<b>cp -r</b> # copy directories with files in them
+<b>ls -la</b> # shows hidden files (in long format)
+<b>rm -rf</b> # remove directories with files in them (recursive remove)
 
 
 CREATE A GIT REPOSITORY
