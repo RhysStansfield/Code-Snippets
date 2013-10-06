@@ -1,26 +1,26 @@
 COMMAND LINE
 
-**mkdir -p dir1/dir2/dir3** # makes an entire path even if all the directories don't exist
-**cp -r** # copy directories with files in them
-**ls -la** # shows hidden files (in long format)
+**mkdir -p dir1/dir2/dir3** # makes an entire path even if all the directories don't exist  
+**cp -r** # copy directories with files in them  
+**ls -la** # shows hidden files (in long format)  
 **rm -rf** # remove directories with files in them (recursive remove)
 
 
 CREATE A GIT REPOSITORY
 
-mkdir someDir
-touch README
-git init
-git add README
-git commit -m "First commit"
-git remote add origin https://github.com/username/someDir.git
-git push -u origin master # -u tells Git to remember parameters, so next time we can "git push"
+**mkdir someDir**  
+**touch README**  
+**git init**  
+**git add README.md**  
+**git commit -m "First commit"**  
+**git remote add origin https://github.com/username/someDir.git**  
+**git push -u origin master** # -u tells Git to remember parameters, so next time we can "git push"
 
 
 OTHER USEFUL GITBITS
 
-**git config --list** # Check your settings; list all the settings Git can find
-**git remote** # To see which remote servers you have configured
+**git config --list** # Check your settings; list all the settings Git can find  
+**git remote** # To see which remote servers you have configured  
 **git remote -v** # Shows URL that Git has stored for the shortname to be expanded to
 
 **git add .** # Convenient shortcut for adding in all the changes to the files in the current directory and below
