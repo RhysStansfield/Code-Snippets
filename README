@@ -5,6 +5,13 @@ cp -r # copy directories with files in them
 ls -la # shows hidden files (in long format)
 rm -rf # remove directories with files in them (recursive remove)
 
-GIT
 
-git commit -m "Add message"
+CREATE A GIT REPOSITORY
+
+mkdir someDir
+touch README
+git init
+git add README
+git commit -m "First commit"
+git remote add origin https://github.com/username/someDir.git
+git push -u origin master
