@@ -1,0 +1,10 @@
+COMMAND LINE
+
+mkdir -p dir1/dir2/dir3 # makes an entire path even if all the directories don't exist
+cp -r # copy directories with files in them
+ls -la # shows hidden files (in long format)
+rm -rf # remove directories with files in them (recursive remove)
+
+GIT
+
+git commit -m "Add message"
