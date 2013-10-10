@@ -28,7 +28,7 @@ OTHER USEFUL GITBITS
 **git commit -a** # Skips staging area (lets you skip "git add")  
 **git commit --amend** # To change your last commit; if you commit too early, forget to add files or mess up your commit message
 
-**git reset HEAD *file*** # To unstage  
+**git reset HEAD** *file* # To unstage  
 **git reset folder/file.txt** # To unstage files
 
 **git diff** # To see what you've changed but not yet staged  
@@ -37,9 +37,9 @@ OTHER USEFUL GITBITS
 
 **git rm '*.txt'** # Not only removes the actual files from disk, but also stages the removal of the files for us
 
-**git mv *file_from* *file_to*** # Rename file with one command
+**git mv** *file_from* *file_to* # Rename file with one command
 
-**git fetch *remote-name*** # To get data from your remote projects; pulls down all the data you don't yet have  
+**git fetch** *remote-name* # To get data from your remote projects; pulls down all the data you don't yet have  
 **git fetch origin** # Fetches any new work that has been pushed to that server since you last cloned (or fetch from) it
 
 **git pull** # Automatically fetch and then merge remote branch into current branch  
@@ -49,11 +49,11 @@ OTHER USEFUL GITBITS
 **git push *remote name* *branch name***  
 **git push origin master**
 
-**git checkout --*target*** # Change files back to how they were at the last commit  
-**git checkout *branch*** # To switch branches  
-**git checkout --*file*** # To switch branches
+**git checkout** *--target* # Change files back to how they were at the last commit  
+**git checkout** *branch* # To switch branches  
+**git checkout** --*file* # To switch branches
 
-**git branch -d *branch name*** # To delete a branch 
+**git branch -d** *branch name* # To delete a branch 
 
 **git branch clean_up** # When working on a feature or bug, developers often create a copy (branch) of their code to make separate commits to. This branch can then be merged back into the master branch  
 **git merge clean_up** # If you're in the master branch, you can tell Git to merge the clean_up branch into it
